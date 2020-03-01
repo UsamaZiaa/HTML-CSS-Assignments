@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form action="#" method="GET">
+                <p>Last Name* <br><input type="text" name="lastname"></p>
+            </td>
+           
+            <td colspan="2">
+                <form action="#" method="GET">
+                <p>Email* <br><input type="text" name="lastname" size="40"></p>
+            </td>
+        </tr>
+
+        <tr >
+            <td valign="top">
+                <p>Maritial Status* <br>
+                <select name="maritial_status">
+                    <option value="not answered"></option>
+                    <option value="married">Married</option>
+                    <option value="married">Divorced</option>
+                    <option value="married">Widowed</option>
+                    <option value="married">Single/Never Married</option>
+                </select>
+                </p>
+            </td>
+            <td valign="top">
+                <p>Number of Children* <br>
+                <input type="radio" name="no_of_child"> None <br>
+                <input type="radio" name="no_of_child"> 1-2 <br>
+                <input type="radio" name="no_of_child"> More than 2
+                </p>
+            </td>
+            <td valign="top">
+                <p>Gender of Children* <br>
+                    <input type="checkbox" name="child1" value="Girl"> Girl(s) <br>
+                    <input type="checkbox" name="child2" value="Boy"> Boy(s)
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Continue>>"> </td>
+            <td></td>
+        </tr>
+    </table>
+
+    </form>
+</body>
+</html>
