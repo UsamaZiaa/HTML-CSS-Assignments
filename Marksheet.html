@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <style>
+        table{
+            width: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th{
+            background-color: #46c660;
+            color: white;
+            padding: 12px;
+        }
+
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr.odd{
+            background-color: #f9f9f9;
+        }
+
+        td.two{
+            text-align: right;
+        }
+
+        td.left{
+            text-align: left;
+        }
+        
+        tr:hover {
+            background-color: #04831e;
+            color: white;
+            }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="7"><b>Subject-Wise Grade/Marks</b></td>
+        </tr>
+        <tr>
+            <th rowspan="2" >Subject <br> Code</th>
+            <th rowspan="2" >Subject Name</th>
+            <th colspan="4">Marks</th>
+            <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th> MCQ</th>
+            <th>Total</th>
+        </tr>
+
+        <!-- 1st Row -->
+        <tr class="odd">
+            <td>101 <br> 102 </td>
+            <td class="left">BANGLA-I <br> BANGLA-II </td>
+            <td class="two"> 050 <br> 064</td>
+            <td class="two"></td>
+            <td class="two"> 020</td>
+            <td class="two">134</td>
+            <td>A-</td>
+        </tr>
+
+        <!-- 2nd Row -->
+        <tr>
+            <td>107 <br> 108 </td>
+            <td class="left">ENGLISH-I <br> ENGLISH-II </td>
+            <td class="two"> 051 <br> 033</td>
+            <td class="two"></td>
+            <td class="two"> </td>
+            <td class="two">084</td>
+            <td>C</td>
+        </tr>
+
+        <!-- 3rd Row -->
+        <tr class="odd">
+            <td>275</td>
+            <td class="left">INFORMATION & COMMUNICATION TECHNLOGY</td>
+            <td class="two">027</td>
+            <td class="two">025</td>
+            <td class="two"> 013</td>
+            <td class="two">065</td>
+            <td>A-</td>
+        </tr>
+
+        <!-- 4th Row -->
+        <tr>
+            <td>125 <br> 126 </td>
+            <td class="left">GEOGRAPHY-I <br> GEOGRAPHY-II </td>
+            <td class="two"> 035 <br> 041</td>
+            <td class="two">025 <br> 025 </td>
+            <td class="two"> 011 <br> 017</td>
+            <td class="two">154</td>
+            <td>A</td>
+        </tr>
+
+        <!-- 5th Row -->
+        <tr class="odd">
+            <td >267 <br> 268 </td>
+            <td class="left">ISLAMIC HISTORY & CULTURE-I <br> ISLAMIC HISTORY & CULTURE-II </td>
+            <td class="two"> 042 <br> 056</td>
+            <td class="two"></td>
+            <td class="two"> 015 <br> 018</td>
+            <td class="two">131</td>
+            <td>A-</td>
+        </tr>
+
+        <!-- 6th Row -->
+        <tr>
+            <td>269 <br> 270 </td>
+            <td class="left">CIVIC & GOOD GOVERNANCE-I <br> CIVIC & GOOD GOVERNANCE-II </td>
+            <td class="two"> 039 <br> 046</td>
+            <td class="two"></td>
+            <td class="two"> 026 <br> 020</td>
+            <td class="two">131</td>
+            <td>A-</td>
+        </tr>
+
+        <!-- 7th Row -->
+        <tr class="odd">
+            <td>239 <br> 240 </td>
+            <td class="left">AGRICULTURE STUDIES-I <br> AGRICULTURE STUDIES-II </td>
+            <td class="two"> 041 <br> 045</td>
+            <td class="two"> 025 <br> 025</td>
+            <td class="two"> 012 <br> 013</td>
+            <td class="two">161</td>
+            <td>A+</td>
+        </tr>
+    </table>
+</body>
+</html>
