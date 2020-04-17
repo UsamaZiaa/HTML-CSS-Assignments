@@ -1,0 +1,46 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    color: #6b5acd;
+    text-align: center;
+    text-decoration: underline;
+}
+
+*{
+    font-family: Helvetica;
+    color: white;
+}
+
+table{
+    background: #6b5acd;
+    width: 80%;
+    margin: auto;
+}
+.qualification{
+    width: 100%;
+    margin: auto;
+}
+#dateOfBirth{
+    color: black;
+}
+select{
+    color: black;
+}
+option{
+    color: black;
+}
+.black{
+    color: black;
+}
+.strech{
+    width: 100%
+}
+.center{
+    text-align: center;
+}
+input{
+    color: black;
+}

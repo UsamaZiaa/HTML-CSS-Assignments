@@ -1,0 +1,20 @@
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+div{
+    height: 100px;
+}
+*{
+    text-align: center;
+}
+h1{
+    color: #2DB34B;
+}
+h2{
+    color: #683B97;
+}
+a{
+    color: #683B97;
+}

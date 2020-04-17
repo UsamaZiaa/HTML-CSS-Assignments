@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="Saylani-logo.png" alt="Logo" width="400px" class="logo">
+    <h1>Student Registration Form</h1>
+
+    <table cellpadding=10px;>
+        <form action="submitted.html" method="POST">
+
+            <!-- First Name -->
+            <tr>
+                <td><label for="firstName">FIRST NAME</label></td>
+                <td>
+                    <input type="text" placeholder="Enter first name" id="firstName">
+                    &#40 max 30 characters a-z and A-Z &#41
+                </td>
+            </tr>
+
+            <!-- Last Name -->
+            <tr>
+                <td><label for="lastName">LAST NAME</label></td>
+                <td>
+                    <input type="text" placeholder="Enter last name" id="lastName">
+                    &#40 max 30 characters a-z and A-Z &#41
+                </td>
+            </tr>
+
+            <!-- Date of Birth -->
+            <tr>
+                <td><label for="dateOfBirth">DATE OF BIRTH</label></td>
+                <td>
+                    <select id="Day">
+                        <option value="Day">Day</option>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                        <option value="1">10</option>
+                        <option value="1">11</option>
+                        <option value="1">12</option>
+                        <option value="1">13</option>
+                        <option value="1">14</option>
+                        <option value="1">15</option>
+                        <option value="1">16</option>
+                        <option value="1">17</option>
+                        <option value="1">18</option>
+                        <option value="1">19</option>
+                        <option value="1">20</option>
+                        <option value="1">21</option>
+                        <option value="1">22</option>
+                        <option value="1">23</option>
+                        <option value="1">24</option>
+                        <option value="1">25</option>
+                        <option value="1">26</option>
+                        <option value="1">27</option>
+                        <option value="1">28</option>
+                        <option value="1">29</option>
+                        <option value="1">30</option>
+                        <option value="1">31</option>
+                    </select>
+
+                    <select name="month" id="month">
+                        <option value="Month">Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+
+                    <select name="year" id="year">
+                        <option value="year">Year</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Email -->
+            <tr>
+                <td><label for="email">EMAIL ID</label></td>
+                <td>
+                    <input type="email" placeholder="Enter email address" id="email">
+                </td>
+            </tr>
+
+            <!-- Mobile Number -->
+            <tr>
+                <td><label for="Mobile">MOBILE NUMBER</label></td>
+                <td>
+                    <input type="number" placeholder="Enter mobile number" id="mobile">
+                    &#40 10 digit number &#41
+                </td>
+            </tr>
+
+            <!-- Gender -->
+            <tr>
+                <td><label for="gender">GENDER</label></td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td style="vertical-align: top;"><label for="address" style="vertical-align: top;">ADDRESS</label></td>
+                <td>
+                    <address>
+                        <textarea class="black" name="address" id="address" cols="50" rows="5"></textarea>
+                    </address>
+                </td>
+            </tr>
+
+            <!-- City -->
+            <tr>
+                <td><label for="City">CITY</label></td>
+                <td>
+                    <input type="text" placeholder="Enter city name" id="city">
+                    &#40 max 30 characters a-z and A-Z &#41
+                </td>
+            </tr>
+
+            <!-- Pincode -->
+            <tr>
+                <td><label for="pincode">PIN CODE</label></td>
+                <td>
+                    <input type="number" placeholder="Enter pincode" id="pincode">
+                    &#40 6 digit number &#41
+                </td>
+            </tr>
+
+            <!-- State -->
+            <tr>
+                <td><label for="state">STATE</label></td>
+                <td>
+                    <input type="text" placeholder="Enter state" id="state">
+                    &#40 max 30 characters a-z and A-Z &#41
+                </td>
+            </tr>
+
+            <!-- Country -->
+            <tr>
+                <td><label for="state">COUNTRY</label></td>
+                <td>
+                    <input type="text" placeholder="Enter country" id="country">
+                </td>
+            </tr>
+
+            <!-- Hobbies -->
+            <tr>
+                <td><label for="state">HOBBIES</label></td>
+                <td>
+                    <label for="drawing">Drawing</label>
+                    <input type="checkbox" id="drawing" value="drawing">
+                    <label for="singing">Singing</label>
+                    <input type="checkbox" id="singing" value="singing">
+                    <label for="dancing">Dancing</label>
+                    <input type="checkbox" id="dancing" value="dancing">
+                    <label for="sketching">Sketching</label>
+                    <input type="checkbox" id="sketching" value="sketching">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <label for="others">Others</label>
+                    <input type="checkbox" id="others" value="others">
+                    <input type="text">
+                </td>
+            </tr>
+
+            <!-- Qualification -->
+            <tr>
+                <td style="vertical-align: top;">QUALIFICATION</td>
+                <td>
+                    <table class="qualification" cellpadding=3px;>
+                        <tr>
+                            <th>S No. Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+
+                        <tr>
+                            <td>1. &emsp; &emsp; &emsp; &emsp; Class X</td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>2. &emsp; &emsp; &emsp; &emsp; Class XII</td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>3. &emsp; &emsp; &emsp; &emsp; Graduation</td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>4. &emsp; &emsp; &emsp; &emsp; Master</td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                            <td><input class="strech" type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="center">&#40 10 characters max &#41</td>
+                            <td class="center">&#40 upto 2 decimal &#41</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Courses Applied For -->
+            <tr>
+                <td><label for="course">COURSES <br> APPLIED FOR</label></td>
+                <td>
+                    <label for="BCA">BCA</label>
+                    <input type="radio" id="BCA" name="course" value="BCA">
+                    <label for="BCOM">BCOM</label>
+                    <input type="radio" id="BCOM" name="course" value="BCOM">
+                    <label for="BSc">BSc</label>
+                    <input type="radio" id="BSc" name="course" value="BSc">
+                    <label for="BA">BA</label>
+                    <input type="radio" id="BA" name="course" value="BA">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="center">
+                    <input class="black" type="submit" value="Submit">
+                    <input class="black" type="reset" value="Reset">
+                </td>         
+            </tr>
+
+        </form>
+    </table>
+</body>
+
+</html>
