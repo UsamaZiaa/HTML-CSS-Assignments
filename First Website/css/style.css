@@ -1,0 +1,326 @@
+/* Global */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+/* <-------------------- Hero Section -------------------------------------> */
+
+#hero {
+    background-image: linear-gradient(to bottom right, #2196f3 , #009688);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ }
+
+
+ /* <-------------------- Navbar -------------------------------------> */
+ .menu{
+    width: 100%;
+    background-color: yellow;
+    height: 40px;
+ }
+
+ .menu ul{
+     text-align: center;
+ }
+
+ .menu ul li{
+     display: inline;
+ }
+
+ .menu ul li a{
+     text-decoration: none;
+     color: black;
+     line-height: 40px;
+     padding: 0px 15px;
+ }
+
+
+/* <-------------------- Service Section -------------------------------------> */ 
+.services{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.col-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+
+.services-col{
+    width: 33.33%;
+    padding: 0px 30px;
+}
+
+
+.services-col img{
+    width: 100px;
+    max-width: 100%;
+}
+
+
+/* <-------------------- About Section -------------------------------------> */
+.about{
+    padding: 50px 0px;
+    text-align: center;
+    background: url(https://s31450.pcdn.co/wp-content/uploads/2017/07/iStock-679437550-FF170728.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.about-text{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px 0px;
+}
+
+
+.about-btn{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    outline: 3px white solid;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* <-------------------- Team Section -------------------------------------> */
+.team{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.team-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+
+
+.team-col{
+    width: 33.33%;
+    padding: 0px 30px;
+}
+
+
+.team-col img{
+    width: 200px;
+    max-width: 100%;
+}
+
+
+
+/* <-------------------- Contact Section -------------------------------------> */
+
+.contact{
+    width: 100%;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.contact-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.contact-col{
+    width: 33.33%;
+    text-align: center;
+}
+
+
+/* <-------------------- Social Media Section -------------------------------------> */
+.contact-info{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.contact-col1{
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons{
+    font-size: 30px;
+}
+
+.fb{
+    color: royalblue;
+}
+
+.tw{
+    color: blue;
+}
+
+.in{
+    color: skyblue;
+}
+
+.g{
+    color: red;
+}
+
+.contact-col2{
+    width: 65%;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.form-col{
+    width: 50%;
+    padding: 5px;
+}
+
+.form-name{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: lightgray;
+    
+}
+
+.form-email{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: lightgray;
+}
+
+.textarea{
+    padding: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    background-color: lightgray;
+}
+
+.form-button{
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    outline: 1px black solid;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+
+/* <-------------------- Footer Section -------------------------------------> */
+footer{
+    width: 100%;
+    color: white;
+    background-color: #1b181f;
+    padding: 50px 40px;
+    display: flex;
+}
+
+.footer-col{
+    width: 33.33%;
+    padding: 20px;
+}
+
+/* <-------------------- Media Query -------------------------------------> */
+
+@media only screen and (max-width:576px){
+ 
+.col-wrapper{
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+.services-col{
+    width: 100%;
+    padding-top: 50px;
+}
+ 
+.about{
+    background-position: center center;
+}
+
+.team-wrapper{
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+.team-col{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.contact-wrapper{
+    flex-wrap: wrap;
+    padding-top:  0px;
+    padding-bottom: 15px;
+}
+
+.contact-col{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contact-info{
+    flex-wrap: wrap;
+}
+
+.contact-col1{
+    width: 100%;
+    padding-top: 0px;
+}
+
+.contact-col2{
+    width: 100%;
+}
+
+footer{
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 100%;
+}
+}
